@@ -33,8 +33,8 @@ const showPhoneDetails = (phones) => {
     div.innerHTML = `<div class="card h-100">
                         <img class="w-50" src="${data.image}" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">${data.phone_name}</h5>
-                            <p class="card-text">${data.brand}</p>
+                            <h5 class="card-title">Name: ${data.phone_name}</h5>
+                            <p class="card-text">Brand: ${data.brand}</p>
                         </div>
                         <div class="card-footer">
                             <button onclick="phoneDetails('${data.slug}')" class="btn btn-success">Details</button>
@@ -65,7 +65,7 @@ const displayPhoneFeatures = (data) => {
   div.classList.add('card');
   div.innerHTML = `<img src="${data.image}" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">${data.name}</h5>
+                    <h5 class="card-title">Name: ${data.name}</h5>
 
                     <p class="card-text">Sensors: ${data.mainFeatures.sensors}</p>
 
