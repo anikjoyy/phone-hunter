@@ -65,7 +65,8 @@ const displayPhoneFeatures = (data) => {
   div.classList.add('card');
   div.innerHTML = `<img src="${data.image}" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Name: ${data.name}</h5>
+                    <h5 class="card-title fw-bold">Name: ${data.name}</h5>
+                    <p class="card-text">Release Date: ${data.releaseDate}</p>
 
                     <p class="card-text">Sensors: ${data.mainFeatures.sensors}</p>
 
