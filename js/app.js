@@ -70,12 +70,6 @@ const displayPhoneFeatures = (data) => {
 
                     <p class="card-text">Sensors: ${data.mainFeatures.sensors}</p>
 
-                    <p class="card-text">WLAN: ${data.others.WLAN}</p>
-                    <p class="card-text">Bluetooth: ${data.others.Bluetooth}</p>
-                    <p class="card-text">GPS: ${data.others.GPS}</p>
-                    <p class="card-text">NFC: ${data.others.NFC}</p>
-                    <p class="card-text">Radio: ${data.others.Radio}</p>
-                    <p class="card-text">USB: ${data.others.USB}</p>
                 </div>`;
   singlePhoneDetails.appendChild(div);
 };
