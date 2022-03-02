@@ -4,3 +4,9 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+.card-img-top {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
